@@ -56,9 +56,12 @@
 	}
 	.article{
 		background-color: white;
-		margin: 1%;
+		margin: 3%;
 		padding: 1%;
-		width:97%;
+		width:92%;
+		box-shadow: 6px 6px 9px #d9d9d9;
+		-webkit-box-shadow:  6px 6px 9px #d9d9d9;
+		-moz-box-shadow:  6px 6px 9px #d9d9d9;
 	}
 	.article ul li{
 		border: 1px solid #ADADAD;
@@ -126,7 +129,6 @@
 	}
 	.mainbody{
 		width: 100%;
-		padding: 20px;
 	}
 	</style>
 </head>
@@ -142,7 +144,7 @@
 <li><a href="#">导航链接一</a></li>
 </ul>
 </div>
-<div id="=mainbody">
+<div class="mainbody">
 	<div class="article">
 		<h2>网站第一个标题</h2>
 		<h3>网站第一个标题</h3>
@@ -237,7 +239,7 @@
 			<h1>这里以后是侧栏，这是侧栏的标题</h1>
 		</div>
 		<form>
-		    <div class="formdiv">
+		    <div>
 				<label for="text1">请输入邮箱地址</label>
 				<input type="text" id="text1" placeholder="这是一个文本输入框"></input>
 			</div>
@@ -256,7 +258,7 @@
 				<span> 请用英文+数字的形式</span>
 			</div>
 			<div class="formdiv left-72">
-				<em>性别</em>
+				<label>性别</label>
 				<input type="radio" id="sexa" name="sex" value="male"> 男</input>
 				<input type="radio" name="sex" value="female"> 女</input>
 			</div>
@@ -268,7 +270,7 @@
 				</select>
 			</div>
 			<div class="formdiv left-32">
-				<em>个人爱好：</em>
+				<label>个人爱好：</label>
 				<input type="checkbox" value="sports">运动</input>
 				<input type="checkbox" value="art">艺术</input>
 				<input type="checkbox" value="science">科学</input>
