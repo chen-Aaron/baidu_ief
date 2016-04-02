@@ -1,0 +1,169 @@
+    body{
+    	margin:0px;
+    }
+    .body{
+    	width: 100%;
+    }
+    .gride-container{
+		width: 100%;
+	}
+	.gride-container *{
+		box-sizing: border-box;
+	}
+	.row:before,
+	.row:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.row{
+		margin-right: 20px;
+		width: calc(100% - 20px);
+		width: -moz-calc(100% - 20px);
+		width: -webkit-calc(100% - 20px);
+	}
+@media screen and (min-width:768px){
+	[class*='cl-']{
+		float: left;
+		height: 72px;
+		margin-top: 20px;
+		margin-left: 20px;
+		border: 1px solid #999;
+		background-color: #eee;
+	}
+	.cl-1{
+		width: calc(8.33% - 20px);
+		width: -moz-calc(8.33% - 20px);
+		width: -webkit-calc(8.33% - 20px);
+	}
+	.cl-2{
+		width: calc(16.66% - 20px);
+		width: -moz-calc(16.66% - 20px);
+		width: -webkit-calc(16.66% - 20px);
+	}
+	.cl-3{
+		width: calc(25% - 20px);
+		width: -moz-calc(25% - 20px);
+		width: -webkit-calc(25% - 20px);
+	}
+	.cl-4{
+		width: calc( 33.33% - 20px);
+		width: -moz-calc( 33.33% - 20px);
+		width: -webkit-calc( 33.33% - 20px);
+	}
+	.cl-5{
+		width: calc(41.66% - 20px);
+		width: -moz-calc(41.66% - 20px);
+		width: -webkit-calc(41.66% - 20px);
+	}
+	.cl-6{
+		width: calc(49.99% - 20px);
+		width: -moz-calc(49.99% - 20px);
+		width: -webkit-calc(49.99% - 20px);
+	}
+	.cl-7{
+		width: calc(58.33% - 20px);
+		width: -moz-calc(58.33% - 20px);
+		width: -webkit-calc(58.33% - 20px);
+	}
+	.cl-8{
+		width: calc(66.66% - 20px);
+		width: -moz-calc(66.66% - 20px);
+		width: -webkit-calc(66.66% - 20px);
+	}
+	.cl-9{
+		width: calc(74.99%-20px);
+		width: -moz-calc(74.99%-20px);
+		width: -webkit-calc(74.99%-20px);
+	}
+	.cl-10{
+		width: calc(83.33% - 20px);
+		width: -moz-calc(83.33% - 20px);
+		width: -webkit-calc(83.33% - 20px);
+	}
+	.cl-11{
+		width: calc(91.66% - 20px);
+		width: -moz-calc(91.66% - 20px);
+		width: -webkit-calc(91.66% - 20px);
+	}
+	.cl-12{
+		width: calc(100% - 20 px);
+		width: -moz-calc(100% -  20px);
+		width: -webkit-calc(100% - 20px);
+	}
+}
+@media screen and (max-width:768px) {
+	[class*='sl-']{
+	float: left;
+	height: 72px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 1px solid #999;
+	background-color: #eee;
+	}
+    .sl-1{
+		width: calc(8.33% - 20px);
+		width: -moz-calc(8.33% - 20px);
+		width: -webkit-calc(8.33% - 20px);
+	}
+	.sl-2{
+		width: calc(16.66% - 20px);
+		width: -moz-calc(16.66% - 20px);
+		width: -webkit-calc(16.66% - 20px);
+	}
+	.sl-3{
+		width: calc(25% - 20px);
+		width: -moz-calc(25% - 20px);
+		width: -webkit-calc(25% - 20px);
+	}
+	.sl-4{
+		width: calc(33.33% - 20px);
+		width: -moz-calc(33.33% - 20px);
+		width: -webkit-calc(33.33% - 20px);
+	}
+	.sl-5{
+		width: calc(41.66% - 20px);
+		width: -moz-calc(41.66% - 20px);
+		width: -webkit-calc(41.66% - 20px);
+	}
+	.sl-6{
+		width: calc(49.99% - 20px);
+		width: -moz-calc(49.99% - 20px);
+		width: -webkit-calc(49.99% - 20px);
+	}
+	.sl-7{
+		width: calc(58.33% - 20px);
+		width: -moz-calc(58.33% - 20px);
+		width: -webkit-calc(58.33% - 20px);
+	}
+	.sl-8{
+		width: calc(66.66% - 20px);
+		width: -moz-calc(66.66% - 20px);
+		width: -webkit-calc(66.66% - 20px);
+	}
+	.sl-9{
+		width: calc(74.99% - 20px);
+		width: -moz-calc(74.99% - 20px);
+		width: -webkit-calc(74.99% - 20px);
+	}
+	.sl-10{
+		width: calc(83.33% - 20px);
+		width: -moz-calc(83.33% - 20px);
+		width: -webkit-calc(83.33% - 20px);
+	}
+	.sl-11{
+		width: calc(91.66% - 20px);
+		width: -moz-calc(91.66% - 20px);
+		width: -webkit-calc(91.66% - 20px);
+	}
+	.sl-12{
+		width: calc(100% - 20px);
+		width: -moz-calc(100% - 20px);
+		width: -webkit-calc(100% - 20px);
+	}
+.row .sl-6:last-of-type{
+	width: calc(100% - 20px);
+	width: -moz-calc(100% - 20px);
+	width: -webkit-calc(100% - 20px);
+    }
+}
