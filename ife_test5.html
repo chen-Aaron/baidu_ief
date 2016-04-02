@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8"/>
+	<style type="text/css">
+	body{
+		margin: 0px;
+		background-color: #EAEAEA;
+	}
+	h1{
+		font-family: "微软雅黑";
+	}
+	h2{
+		color:#9E9E9E; 
+	}
+	h3{
+		color: #A8A8A8;
+	}
+	span{
+		color:#AAAAAA;
+	}
+	p{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.right{
+		float:right;
+	}
+	.left{
+		float: left;
+	}
+	#nav{
+		width: 100%;
+		height: 60px;
+		background-color: black;
+		overflow: hidden;
+	}
+	ul li{
+		list-style: none;
+	}
+	ul li a{
+		color: #EEE5F5;
+	}
+	#nav ul li{
+		float: right;
+		padding-right: 20px;
+	}
+	#nav ul li a{
+		text-decoration: none;
+		text-align: center;
+		vertical-align: center;
+	}
+	#nav div img{
+		max-width: 120px;
+	}
+	.article{
+		background-color: white;
+		/*margin: 3%;
+		padding: 1%;
+		width:92%;*/
+		box-shadow: 6px 6px 9px #d9d9d9;
+		-webkit-box-shadow:  6px 6px 9px #d9d9d9;
+		-moz-box-shadow:  6px 6px 9px #d9d9d9;
+	}
+	.article ul li{
+		border: 1px solid #ADADAD;
+		width:170px;
+		height: 140px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	.article ul li img{
+		max-width: 144px;
+		max-height: 98.4px;
+	}
+	th{
+		color:white;
+		background-color: black;
+		width: 40%;
+	}
+	thead tr th:nth-child(3){
+		width: 20%;
+	}
+	table{
+		width:100%;
+		border-spacing:0px;
+	}
+	thead{
+		width:100%;
+	}
+	tr{
+		width:100%;
+	}
+	th{
+		padding: 0px;
+		border: 1px solid #B8B8B8;
+	}
+	td{
+		padding: 0px;
+		border: 1px solid #B8B8B8;
+	}
+	th:nth-child(4){
+		background-color: #8B8970;
+	}
+	.leftproject{
+		border-left:5px solid #8B8970;
+	}
+	form{
+		width: 65%;
+		margin:0 auto;
+	}
+	.formdiv{
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.left-72{
+		margin-left: 72px;
+	}
+	.marginleft{
+		margin-left:120px;
+	}
+	.left-32{
+		margin-left: 32px;
+	}
+	.submit{
+		width: 100%;
+		background-color:#4876FF;
+	}
+	.mainbody{
+		width: 100%;
+		overflow: hidden;
+	}
+	.foot{
+		width:100%;
+		height: 60px;
+		background-color: black;
+	}
+	.mainleft{
+		width:80%;
+		padding-right:500px;
+	}
+	.mainright{
+		width: 490px;
+		margin-left: -490px;
+	}
+	.inner{
+		width:100%;
+	}
+	img{
+		max-width: 100%;
+		display: block;
+		height:auto;
+	}
+	.left1{
+		float: left;
+		margin-right: 10px;
+	}
+	</style>
+</head>
+<body>
+<div id="nav">
+<div class="left">
+	<img src="img/baidulogo.jpg">
+</div>
+<ul class="right">
+<li><a href="#">导航链接一</a></li>
+<li><a href="#">导航链接一</a></li>
+<li><a href="#">导航链接一</a></li>
+<li><a href="#">导航链接一</a></li>
+</ul>
+</div>
+<div class="mainbody">
+    <div class="mainright right">
+			<div class="leftproject">
+				<h1>这里以后是侧栏，这是侧栏的标题</h1>
+			</div>
+			<form>
+			    <div>
+					<label for="text1">请输入邮箱地址</label>
+					<input type="text" id="text1" placeholder="这是一个文本输入框"></input>
+				</div>
+				<div class="formdiv marginleft">
+					<span>请按要求格式输入</span>
+				</div>
+				<div class="formdiv left-32" >
+					<label for="text2">请输入密码</label>
+					<input type="text" id="text2" placeholder="这是一个文本输入框"></input>
+				</div>
+				<div class="formdiv">
+					<label for="text3">请重新输入密码</label>
+					<input type="text" id="text3" placeholder="这是一个文本输入框"></input>
+				</div>
+				<div class="formdiv marginleft">
+					<span> 请用英文+数字的形式</span>
+				</div>
+				<div class="formdiv left-72">
+					<label>性别</label>
+					<input type="radio" id="sexa" name="sex" value="male"> 男</input>
+					<input type="radio" name="sex" value="female"> 女</input>
+				</div>
+				<div class="formdiv left-72">
+				    <label  for="city">城市</label>
+					<select id="city">
+						<option value="北京">北京</option>
+						<option value="上海">上海</option>
+					</select>
+				</div>
+				<div class="formdiv left-32">
+					<label>个人爱好：</label>
+					<input type="checkbox" value="sports">运动</input>
+					<input type="checkbox" value="art">艺术</input>
+					<input type="checkbox" value="science">科学</input>
+				</div>
+				<div class="formdiv left-32">
+					<label for="text">个人描述</label>
+					<textarea id="text">这是个多行输入框</textarea>
+				</div>
+				<input class="submit" type="submit"></input>
+			</form>
+	</div>
+    <div class="mainleft">
+		<div class="inner">
+			<div class="article">
+				<h2>网站第一个标题</h2>
+				<h3>网站第一个标题</h3>
+				<span>网站第一个标题</span>
+				<span>网站第一个标题</span>
+				<p>&nbsp&nbsp&nbsp这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落</p>
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。<a href="">这是一个链接</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，</p>
+				<img src="img/test1.jpeg">
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，</p>
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。<a href="">这是一个链接</a></p>
+			</div>
+			<div class="article">
+				<h1>另一篇文章的一级标题</h1>
+				<h2>另一篇文章的二级标题</h2>
+				<span>作者</span>
+				<span>发表时间</span>
+				<p>&nbsp&nbsp&nbsp这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落</p>
+				<p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。<a href="">这是一个链接</a>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落这是一个很长的段落，这是一个很长的段落，这是一个很长的段落</p>
+				<img src="img/test1.jpeg">
+				<dl>
+					<dt>列表一</dt>
+					<dt>列表二</dt>
+					<dt>列表三</dt>
+				</dl>
+			</div>
+			<div class="article">
+			    <h1>图片</h1>
+				<ul>
+					<li class="left1">
+					<p>好看的图片</p>
+					<img src="img/test1.jpeg"> 
+					</li><li class="left1">
+					<p>好看的图片</p>
+					<img src="img/test1.jpeg"> 
+					</li>
+					<li class="left1">
+					<p>好看的图片</p>
+					<img src="img/test1.jpeg"> 
+					</li>
+					<li class="left1">
+					<p>好看的图片</p>
+					<img src="img/test1.jpeg"> 
+					</li>
+					<li class="left1">
+					<p>好看的图片</p>
+					<img src="img/test1.jpeg"> 
+					</li>
+					<li class="left1">
+					<p>好看的图片</p>
+					<img src="img/test1.jpeg"> 
+					</li>
+				</ul>
+			</div>
+			<div class="article">
+				<h1>最后文章的一级标题</h1>
+				<h2>最后文章的二级标题</h2>
+				<ol>
+					<li>排名1</li>
+					<li>排名2</li>
+					<li>排名2</li>
+				</ol>
+				<p>下面是一个表格，给表格加border=1</p>
+				<table>
+					<thead>
+						<tr>
+							<th>表头</th>
+							<th>表头</th>
+							<th>表头</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+						<tr>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+						<tr>
+							<td>内容</td>
+							<td>内容</td>
+							<td>内容</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<div class="foot">
+	
+</div>
+</body>
+</html>
